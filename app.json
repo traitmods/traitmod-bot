@@ -1,11 +1,11 @@
 {
-	"name": "Deploy",
+	"name": "Traitbot",
 	"description": "Wa Bot.",
 	"keywords": [
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"repository": "https://github.com/traitmods/traitmod-bot",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -46,7 +46,7 @@
         "CHATBOT": {
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
+            "value":"on"
         },
         "BOT_NAME": {
             "description": "Name of AI chatbot",
