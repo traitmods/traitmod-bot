@@ -31,12 +31,12 @@ Module({
   var buttons = [{
     urlButton: {
         displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        url: 'https://github.com/traitmods/traitmod-bot'
     }
 }, {
   urlButton: {
     displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    url: 'https://wa.me/'+2349155556447.split(";")[2]+'?text=Hey+bro'
     }
 }, {
     quickReplyButton: {
