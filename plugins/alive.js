@@ -7,7 +7,7 @@ const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("Traitmod-bot");
 const {
   Module,
   commands
@@ -54,10 +54,10 @@ Module({
         id: 'support'+myid
     }
 }]
-var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+var menu = `╭═══〘 ${TRAITMOD.split(";")[0]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner : ${TRAITMOD.split(";")[1]}
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
@@ -68,7 +68,7 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✩│   ${BOT_INFO.split(";")[0]}
+┃✩│   ${TRAITMOD.split(";")[0]}
 ┃✩│ 
 ┃✩╰───────────────
 ╰═════════════════⊷
