@@ -14,7 +14,7 @@ module.exports = {
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
     USERNAME: process.env.USERNAME || '',
-    SESSION: process.env.SESSION || 'Raganork~4f6aa8c3d22ec45a94e377be4a222d3f:7a3656434d4753574966453d',
+    SESSION: process.env.SESSION || 'Raganork~ce1b3679309c17a0a81892d7662e6f68:747061356856324730676f3d',
     RG: process.env.RG || '919074309534-1632403322@g.us',
     PASSWORD: process.env.PASSWORD || '',
     BOT_INFO: process.env.BOT_INFO || 'TRAITMODS;TRAITBOTS;2349155556447;https://i.imgur.com/st4R2dq.jpeg;https://chat.whatsapp.com/BYy2hoqHH4Y8UiEsBL24he',
